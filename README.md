@@ -1,2 +1,2 @@
 # springlearning
-procession of learning spring
+process of learning spring
