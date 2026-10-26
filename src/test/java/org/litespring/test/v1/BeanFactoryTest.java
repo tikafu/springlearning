@@ -32,7 +32,7 @@ public class BeanFactoryTest {
         } catch (BeanCreationgException e) {
             return;
         }
-        Assert.fail("expect beanCreationException");
+        Assert.fail("Expect BeanCreationException");
     }
     @Test
     public void testInvalidXml() {
@@ -42,6 +42,6 @@ public class BeanFactoryTest {
         } catch (BeanDefinitionStoreException e) {
             return;
         }
-        Assert.fail("expect beanDefinitionStoreException");
+        Assert.fail("Expect BeanDefinitionStoreException");
     }
 }
